@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans';
+
+
+/* Page */
+
+.page {
+    padding: 50px 20px;
+    margin: auto;
+}
+
+.page__logo {
+    margin-bottom: 25px;
+    width: 55px;
+}
+
+.page__wrapper {
+    padding: 30px;
+}
+
+.page__content {
+    margin-bottom: 20px;
+}
+
+.page__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.page__title--colored {
+    color: #777;
+}
+
+/* Buttons */
+
+.page__btn {
+    background: #419fd9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.page__btn--cancel {
+    background: #ff5a5f;
+    border-color: #e00007;
+}
+.invalid-feedback{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#demo-file::file-selector-button {
+    border: 2px solid #555555;
+    color: #555555;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#demo-file::file-selector-button:hover {
+    background-color: #e9e9e9;
+}
+
+#demo-file::-webkit-file-upload-button {
+    border: 2px solid #555555;
+    color: #555555;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#demo-file::-webkit-file-upload-button:hover {
+    background-color: #e9e9e9;
+}
+/* TopModal */
+
+.topmodal {
+    border-radius: 2px;
+    text-align: center;
+}

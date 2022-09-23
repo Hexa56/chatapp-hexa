@@ -1,0 +1,56 @@
+/* rythm
+-------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+.tingle-demo {
+  display: none;
+}
+
+/* responsive
+-------------------------------------------------------------- */
+
+@media (max-width: 540px) {
+  .container {
+    width: 90%;
+  }
+
+  .btn {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .header__pic {
+    width: 100px;
+  }
+
+  .title {
+    margin-left: 0;
+  }
+
+  .title:before {
+    display: none;
+  }
+}
+
+/* modal
+-------------------------------------------------------------- */
+
+.tingle-modal-box {
+  max-width: 80rem;
+}
+
+.choose::-webkit-file-upload-button {
+  color: white;
+  display: inline-block;
+  background: #1CB6E0;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
